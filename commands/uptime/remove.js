@@ -215,7 +215,7 @@ module.exports = {
 
     // LOADING
     let waitEmbed = new MessageEmbed().setDescription(
-      "<a:HYPR_Loading:802069819842625556> Please wait..."
+      "<a:loading:951109574977519676> Please wait..."
     );
     var messageAlert = await message.channel.send(message.author, waitEmbed);
 
@@ -229,7 +229,7 @@ module.exports = {
     if (checkIfExsists === null) {
       // PROJECT IS NOT REGISTERED
       let embed = new MessageEmbed()
-        .setTitle("<:LLdotwhite:793780355953065986> Project is not Registered!")
+        .setTitle("<:LLdotwhite:960320978645295155> Project is not Registered!")
         .setDescription("Add one using: `,add <url>`")
         .setColor("#FF0000")
         .setTimestamp();
