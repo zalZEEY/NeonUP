@@ -1,7 +1,5 @@
-const express = require('express')
-const path = require('path')
-const PORT = process.env.PORT || 5000
 require("dotenv").config();
+require('http').createServer((req, res) => res.end('Bot is alive!')).listen(3000)
 const { Client, Collection } = require("discord.js");
 const UrlsConfig = require("./database/models/UrlsConfig");
 const fetchProjects = require("./fetchProjects");
