@@ -1,4 +1,5 @@
 require("dotenv").config();
+const PORT = process.env.PORT || 5000
 const { Client, Collection } = require("discord.js");
 const UrlsConfig = require("./database/models/UrlsConfig");
 const fetchProjects = require("./fetchProjects");
