@@ -66,7 +66,7 @@ module.exports = {
       // RUNS WHEN THE PROJECT IS ALREADY IN DATABASE
       let embed = new MessageEmbed()
         .setTitle(
-          "<:LLdotwhite:792063761473065986> Project is already Registered!"
+          "<:LLdotwhite:960320978645295155> Project is already Registered!"
         )
         .setDescription(
           "The project you're trying to register is already in the Database"
