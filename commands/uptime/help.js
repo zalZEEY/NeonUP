@@ -21,7 +21,7 @@ module.exports = {
       commands.sort().join("\n");
 
     let embed = new MessageEmbed()
-      .setTitle("<:database:960277053033304104> Here are my comamnds!")
+      .setTitle("<:database64:960279910117671012> Here are my comamnds!")
       .setDescription(contents)
       .setColor("RANDOM")
       .setFooter(`Prefix: "${default_prefix}"`)
