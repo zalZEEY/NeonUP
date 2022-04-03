@@ -9,15 +9,15 @@ module.exports = {
   authorPermission: [],
   ownerOnly: false,
   run: async (client, message, args) => {
-    let github_repo = "https://github.com/naveenpoddar/uptimer";
-    let how_to = "https://github.com/naveenpoddar/uptimer#ussage";
+    let github_repo = "https://discord.gg/93HNqfrpGB";
+    let how_to = "https://discord.com/api/oauth2/authorize?client_id=958358276377042984&permissions=272448&scope=bot";
 
     const commands = client.commands
       .filter((c) => c.ownerOnly === false)
       .map((cmd) => `**${default_prefix}${cmd.name}** - ${cmd.description}`);
 
     const contents =
-      "**Uptimer** is an open-source project, and a free discord bot that allows you to make your projects online 24/7 just by using a single cmd.\n\n" +
+      "**Uptimer** free discord bot that allows you to make your projects online 24/7 just by using a single cmd.\n\n" +
       commands.sort().join("\n");
 
     let embed = new MessageEmbed()
@@ -27,12 +27,12 @@ module.exports = {
       .setFooter(`Prefix: "${default_prefix}"`)
       .setThumbnail(client.user.displayAvatarURL())
       .addField(
-        "How to use?",
-        "[Click here](" + how_to + ") to read the Documentation."
+        "Invite?",
+        "[Click here](" + how_to + ") Invite me to your server."
       )
       .addField(
-        "Github Repository",
-        `[Click here](${github_repo}) to go to the Repository.`
+        "Support",
+        `[Click here](${github_repo}) join support server.`
       )
       .setTimestamp();
 
