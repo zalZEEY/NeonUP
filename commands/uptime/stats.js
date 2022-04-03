@@ -17,7 +17,7 @@ module.exports = {
 
     const all = await UrlsConfig.find(filter);
 
-    const menuEmoji = "<a:musica:785432181065121802>";
+    const menuEmoji = "<a:Check:958735476548841532>";
 
     let embed = new MessageEmbed()
       .setColor("RANDOM")
@@ -32,14 +32,14 @@ module.exports = {
       if (data.get("error")) {
         embed.addField(
           `**${count}**. \`${data.projectURL}\``,
-          `<:LLdotwhite:793780355953065986> Last Pinged: ${
+          `<:LLdotwhite:960320978645295155> Last Pinged: ${
             data.updatedAt ? formatDate(data.updatedAt) : "Not Measured"
           }\n<:red_dot:841223022560280588> FetchError: ${data.errorText}`
         );
       } else {
         embed.addField(
           `**${count}**. \`${data.projectURL}\``,
-          `<:LLdotwhite:793780355953065986> Last Pinged: ${
+          `<:LLdotwhite:960320978645295155> Last Pinged: ${
             data.updatedAt ? formatDate(data.updatedAt) : "Not Measured"
           }`
         );
