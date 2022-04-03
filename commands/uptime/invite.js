@@ -9,7 +9,7 @@ module.exports = {
   authorPermission: [],
   ownerOnly: false,
   run: async (client, message, args) => {
-    let github_repo = "https://github.com/naveenpoddar/uptimer";
+    let github_repo = "https://discord.gg/93HNqfrpGB";
 
     let embed = new MessageEmbed()
       .setTitle("Invite Me / Support Me.")
@@ -22,8 +22,8 @@ module.exports = {
         "[Click here](" + invite_link + ") to invite me to into server."
       )
       .addField(
-        "<:link:807875763415416853> **Source Code**",
-        "[Click here](" + github_repo + ") Support this open-source project."
+        "<:link:807875763415416853> **Support**",
+        "[Click here](" + github_repo + ") join support server."
       )
       .setTimestamp();
 
