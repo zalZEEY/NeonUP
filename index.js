@@ -1,8 +1,5 @@
 require("dotenv").config();
 const PORT = process.env.PORT || 5000;
-app.listen(PORT, () => {
-    console.log(`Our app is running on port ${ PORT }`);
-});
 const { Client, Collection } = require("discord.js");
 const UrlsConfig = require("./database/models/UrlsConfig");
 const fetchProjects = require("./fetchProjects");
