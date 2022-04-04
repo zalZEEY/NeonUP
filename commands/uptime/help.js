@@ -17,7 +17,7 @@ module.exports = {
       .map((cmd) => `**${default_prefix}${cmd.name}** - ${cmd.description}`);
 
     const contents =
-      "**Uptimer** free discord bot that allows you to make your projects online 24/7 just by using a single cmd.\n\n" +
+      "**Uptimer** is a free discord bot that allows you to make your projects online 24/7 just by using a single cmd.\n\n" +
       commands.sort().join("\n");
 
     let embed = new MessageEmbed()
