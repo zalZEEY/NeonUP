@@ -14,7 +14,7 @@ module.exports = {
     let embed = new MessageEmbed()
       .setTitle("Invite Me / Support Me.")
       .setDescription(
-        "Uptimer is a open-source, free discord bot that allows you to make your projects online 24/7 just by using a single cmd."
+        "Uptimer is a free discord bot that allows you to make your projects online 24/7 just by using a single cmd."
       )
       .setColor("#a1eb34")
       .addField(
