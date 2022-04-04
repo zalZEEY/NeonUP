@@ -11,6 +11,8 @@ module.exports = {
   run: async (client, message, args) => {
     let github_repo = "https://discord.gg/93HNqfrpGB";
     let how_to = "https://discord.com/api/oauth2/authorize?client_id=958358276377042984&permissions=272448&scope=bot";
+    let saweria = "https://saweria.co/ZeeyZal";
+    let trakteer = "https://trakteer.id/zal_zeey";
 
     const commands = client.commands
       .filter((c) => c.ownerOnly === false)
@@ -29,6 +31,14 @@ module.exports = {
       .addField(
         "Invite?",
         "[Click here](" + how_to + ") Invite me to your server."
+      )
+      .addField(
+        "Saweria",
+        "[Click here](" + saweria + ") :)"
+      )
+      .addField(
+        "Trakteer",
+        "[Click here](" + trakteer + ") :)"
       )
       .addField(
         "Support",
