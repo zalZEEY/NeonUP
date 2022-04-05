@@ -27,14 +27,14 @@ module.exports = {
     all.forEach(async (data) => {
       count++;
       if (count === 26) return;
-      // <:red_dot:841223022560280588>
+      // <:reddot:961017096534392862>
 
       if (data.get("error")) {
         embed.addField(
           `**${count}**. \`${data.projectURL}\``,
           `<:LLdotwhite:960320978645295155> Last Pinged: ${
             data.updatedAt ? formatDate(data.updatedAt) : "Not Measured"
-          }\n<:red_dot:841223022560280588> FetchError: ${data.errorText}`
+          }\n<:reddot:961017096534392862> FetchError: ${data.errorText}`
         );
       } else {
         embed.addField(
