@@ -36,7 +36,7 @@ const client = new Client({
 setInterval(async () => {
   UrlsConfig.countDocuments({}, (err, total) => {
     client.projectsSize = total;
-    client.user.setActivity(`Zeey | ${total} Project(s)`, {
+    client.user.setActivity(`up/help |${client.guilds.cache.size} Servers and ${total} Project(s)`, {
       type: "WATCHING",
     });
   });
