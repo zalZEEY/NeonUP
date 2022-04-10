@@ -1,5 +1,6 @@
 const { MessageEmbed } = require("discord.js");
 const { sc } = require("./../../config.json");
+const { default_prefix } = require("./../../config.json");
 
 module.exports = {
   name: "source",
