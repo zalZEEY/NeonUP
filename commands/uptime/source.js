@@ -10,7 +10,7 @@ module.exports = {
   authorPermission: [],
   ownerOnly: false,
   run: async (client, message, args) => {
-    let github_repo = "https://discord.gg/93HNqfrpGB";
+    let github_repo = "https://discord.gg/mnQvdsZx5F";
 
     let embed = new MessageEmbed()
       .setTitle("Source / Support")
