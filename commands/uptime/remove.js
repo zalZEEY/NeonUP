@@ -230,7 +230,7 @@ module.exports = {
       // PROJECT IS NOT REGISTERED
       let embed = new MessageEmbed()
         .setTitle("<:LLdotwhite:960320978645295155> Project is not Registered!")
-        .setDescription("Add one using: `,add <url>`")
+        .setDescription("Add one using: `up/add <url>`")
         .setColor("#FF0000")
         .setTimestamp();
 
