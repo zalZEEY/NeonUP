@@ -4,7 +4,7 @@ const { default_prefix } = require("./../../config.json");
 
 module.exports = {
   name: "source",
-  description: "Uptimer is an open-source project, and a free discord bot that allows you to make your projects online 24/7 just by using a single cmd.",
+  description: "Open source",
   category: "uptime",
   botPermission: [],
   authorPermission: [],
@@ -13,13 +13,18 @@ module.exports = {
     let github_repo = "https://discord.gg/93HNqfrpGB";
 
     let embed = new MessageEmbed()
-      .setTitle("Invite Me / Support Me.")
+      .setTitle("Source / Support")
       .setDescription(
         "Uptimer is a free discord bot that allows you to make your projects online 24/7 just by using a single cmd."
       )
+      .setColor("#a1eb34")
       .addField(
-        "<:link:807875763415416853> **Support**",
-        "[Click here](" + github_repo + ") join support server."
+        "<:link:807875763415416853> **Github**",
+        "[Click here](" + sc + ") source."
+      )
+      .addField(
+        "<:link:807875763415416853> **Discord**",
+        "[Click here](" + github_repo + ") discord server."
       )
       .setTimestamp();
 
