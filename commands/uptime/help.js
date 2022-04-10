@@ -29,20 +29,12 @@ module.exports = {
       .setFooter(`Prefix: "${default_prefix}"`)
       .setThumbnail(client.user.displayAvatarURL())
       .addField(
-        "Invite?",
-        "[Click here](" + how_to + ") Invite me to your server."
-      )
-      .addField(
         "Saweria",
         "[Click here](" + saweria + ") :)"
       )
       .addField(
         "Trakteer",
         "[Click here](" + trakteer + ") :)"
-      )
-      .addField(
-        "Support",
-        `[Click here](${github_repo}) join support server.`
       )
       .setTimestamp();
 
