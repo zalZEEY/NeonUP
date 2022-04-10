@@ -2,7 +2,7 @@
   "default_prefix": "up/",
   "owners": ["943121215755796510", "943121215755796510"],
   "timeout": 300000,
-  "sc": "gthco",
+  "sc": "https://github.com/naveenpoddar/uptimer",
   "invite_link": "https://discord.com/api/oauth2/authorize?client_id=958358276377042984&permissions=272448&scope=bot",
   "error_logs": "841865837228458034",
   "success_logs": "842020492310347777",
