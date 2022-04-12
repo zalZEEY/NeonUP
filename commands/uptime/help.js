@@ -9,7 +9,7 @@ module.exports = {
   authorPermission: [],
   ownerOnly: false,
   run: async (client, message, args) => {
-    let github_repo = "https://discord.gg/ZuGMmk8cXR";
+    let github_repo = "https://discord.gg/Zn3uqZwBua";
     let how_to = "https://discord.com/api/oauth2/authorize?client_id=958358276377042984&permissions=272448&scope=bot";
     let saweria = "https://saweria.co/ZeeyZal";
     let trakteer = "https://trakteer.id/zal_zeey";
