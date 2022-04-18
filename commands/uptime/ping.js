@@ -4,7 +4,7 @@ const { default_prefix } = require("./../../config.json");
 
 module.exports = {
   name: "ping",
-  category: "info",
+  category: "uptime",
   description: "Get bot ping :/",
   usage: "ping",
   run: (client, message) => {
@@ -12,3 +12,4 @@ module.exports = {
   }
   
 }
+
