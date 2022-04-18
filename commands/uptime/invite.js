@@ -9,7 +9,8 @@ module.exports = {
   authorPermission: [],
   ownerOnly: false,
   run: async (client, message, args) => {
-    let github_repo = "https://discord.gg/Zn3uqZwBua";
+    let github_repo = "https://discord.gg/93HNqfrpGB";
+    let dev = "https://discord.gg/QxheWZvAPR";
 
     let embed = new MessageEmbed()
       .setTitle("Invite Me / Support Me.")
@@ -24,6 +25,7 @@ module.exports = {
       .addField(
         "<:link:807875763415416853> **Support**",
         "[Click here](" + github_repo + ") join support server."
+        "[Click here](" + dev + ") Developer Server."
       )
       .setTimestamp();
 
