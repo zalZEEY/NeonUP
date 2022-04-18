@@ -1,3 +1,7 @@
+const UrlsConfig = require("./../../database/models/UrlsConfig");
+const { MessageEmbed } = require("discord.js");
+const { default_prefix } = require("./../../config.json");
+
 module.exports = {
   name: "ping",
   category: "info",
