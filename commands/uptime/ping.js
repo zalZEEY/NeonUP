@@ -9,9 +9,3 @@ module.exports = {
   usage: "ping",
   run: (client, message) => {
     message.channel.send(`**:ping_pong:Latency is ${Date.now() - message.createdTimestamp}ms. API Latency is ${Math.round(client.ws.ping)}ms.:ping_pong:**`);
-      )
-      .setTimestamp();
-
-    return message.channel.send(embed);
-  },
-};
