@@ -1,10 +1,10 @@
 const UrlsConfig = require("./../../database/models/UrlsConfig");
 const { MessageEmbed } = require("discord.js");
 const { default_prefix } = require("./../../config.json");
-const Discord = require('discord.js');
 const moment = require("moment");
 const bot = new Discord.Client();
 require("moment-duration-format");
+
 module.exports = {
     name: 'uptime',
     description: "Bot Stats",
