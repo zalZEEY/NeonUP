@@ -45,7 +45,7 @@ setInterval(async () => {
 }, timeout);
 
 client.on('message', message => {
-  if (message.channel.type ,,= 'text' || message.author.bot)
+  if (message.channel.type != 'text' || message.author.bot)
     return;
 
   let command = message.content.split(' ')[0].slice(1);
