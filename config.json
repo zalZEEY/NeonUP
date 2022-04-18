@@ -1,5 +1,5 @@
 {
-  "default_prefix": "up/",
+  "default_prefix": "!",
   "owners": ["943121215755796510", "943121215755796510"],
   "timeout": 300000,
   "sc": "https://github.com/naveenpoddar/uptimer",
