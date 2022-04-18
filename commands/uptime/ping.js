@@ -6,9 +6,9 @@ module.exports = {
   name: "ping",
   category: "uptime",
   description: "Get bot ping :/",
-  usage: "ping",
   botPermission: [],
   authorPermission: [],
   ownerOnly: false,
-    run: (client, message) => {
+  usage: "ping",
+  run: (client, message) => {
     message.channel.send(`**:ping_pong:Latency is ${Date.now() - message.createdTimestamp}ms. API Latency is ${Math.round(client.ws.ping)}ms.:ping_pong:**`);
