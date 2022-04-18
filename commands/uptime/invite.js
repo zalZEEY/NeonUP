@@ -25,6 +25,9 @@ module.exports = {
       .addField(
         "<:link:807875763415416853> **Support**",
         "[Click here](" + github_repo + ") join support server."
+      )
+      .addField(
+        "<:link:807875763415416853> **Support Dev**",
         "[Click here](" + dev + ") Developer Server."
       )
       .setTimestamp();
