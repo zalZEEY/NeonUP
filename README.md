@@ -86,3 +86,5 @@ If you have any questions regarding this project, or you are not able to use thi
 BOT_TOKEN="your bot token"
 MONGO_URI="your mongo-db uri"
 ```
+
+1
