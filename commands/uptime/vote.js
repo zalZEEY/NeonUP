@@ -10,7 +10,7 @@ module.exports = {
   authorPermission: [],
   ownerOnly: false,
   run: async (client, message, args) => {
-    let github_repo = "https://discord.gg/mnQvdsZx5F";
+    let github_repo = "https://top.gg/bot/958358276377042984";
 
     let embed = new MessageEmbed()
       .setTitle("Vote")
@@ -20,7 +20,7 @@ module.exports = {
       .setColor("#a1eb34")
       .addField(
         "<:link:807875763415416853> **Top.gg**",
-        "[Click here](" + github_repo + ") vote."
+        "[Click here](" + github_repo + ") vote"
       )
       .setTimestamp();
 
