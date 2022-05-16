@@ -1,5 +1,6 @@
 require("dotenv").config();
 require('http').createServer((req, res) => res.end('Bot is alive!')).listen(process.env.PORT, '0.0.0.0')
+const client = new Discord.Client({ ws: { properties: { $browser: "Discord iOS" }} });
 const { Client, Collection } = require("discord.js");
 const UrlsConfig = require("./database/models/UrlsConfig");
 const fetchProjects = require("./fetchProjects");
