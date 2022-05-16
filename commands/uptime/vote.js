@@ -19,7 +19,7 @@ module.exports = {
       )
       .setColor("#a1eb34")
       .addField(
-        "<:link:807875763415416853> **Top.gg**",
+        "<:neonuptopgg:975785831526711336> **Top.gg**",
         "[Click here](" + github_repo + ") vote"
       )
       .setTimestamp();
