@@ -1,7 +1,7 @@
 {
   "default_prefix": "up/",
   "owners": ["943121215755796510", "943121215755796510"],
-  "timeout": 300000,
+  "timeout": 900000,
   "sc": "https://github.com/naveenpoddar/uptimer",
   "invite_link": "https://top.gg/bot/958358276377042984",
   "error_logs": "963196968342016010",
