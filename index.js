@@ -36,8 +36,9 @@ const client = new Client({
 setInterval(async () => {
   UrlsConfig.countDocuments({}, (err, total) => {
     client.projectsSize = total;
-    client.user.setActivity(`up/help | ${client.guilds.cache.size} Servers and ${total} Project(s)`, {
-      type: "WATCHING",
+    client.user.setActivity(`${client.guilds.cache.size} Servers and ${total} Project(s)`, {
+      type: "STREAMING",
+      url: "https://www.twitch.tv/leo_zeey" 
     });
   });
 
