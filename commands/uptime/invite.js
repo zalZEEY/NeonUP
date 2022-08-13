@@ -9,8 +9,8 @@ module.exports = {
   authorPermission: [],
   ownerOnly: false,
   run: async (client, message, args) => {
-    let github_repo = "https://discord.gg/93HNqfrpGB";
-    let dev = "https://discord.gg/QxheWZvAPR";
+    let github_repo = "https://discord.gg/q6JzS3hyHB";
+    let dev = "https://discord.gg/q6JzS3hyHB";
 
     let embed = new MessageEmbed()
       .setTitle("Invite Me / Support Me.")
