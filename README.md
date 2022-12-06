@@ -87,6 +87,6 @@ BOT_TOKEN="your bot token"
 MONGO_URI="your mongo-db uri"
 ```
 
-```
-<a href="https://www.buymeacoffee.com/Zeey"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=&slug=Zeey&button_colour=FFDD00&font_colour=000000&font_family=Arial&outline_colour=000000&coffee_colour=ffffff" /></a>
-```
+<p>
+ <a href="https://www.buymeacoffee.com/Zeey"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=&slug=Zeey&button_colour=FFDD00&font_colour=000000&font_family=Arial&outline_colour=000000&coffee_colour=ffffff" /></a>
+</p>
