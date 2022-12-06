@@ -1,7 +1,7 @@
 # Uptimerr
 
 <p>
-  <a href="https://discord.gg/mnQvdsZx5F"><img src="https://img.shields.io/discord/645980399545221153?color=7289da&logo=discord&logoColor=white" alt="Discord server" /></a>
+  <a href="https://www.buymeacoffee.com/Zeey"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=&slug=Zeey&button_colour=FFDD00&font_colour=000000&font_family=Arial&outline_colour=000000&coffee_colour=ffffff" /></a>
 </p>
 
 ```diff
@@ -86,7 +86,3 @@ If you have any questions regarding this project, or you are not able to use thi
 BOT_TOKEN="your bot token"
 MONGO_URI="your mongo-db uri"
 ```
-
-<p>
- <a href="https://www.buymeacoffee.com/Zeey"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=&slug=Zeey&button_colour=FFDD00&font_colour=000000&font_family=Arial&outline_colour=000000&coffee_colour=ffffff" /></a>
-</p>
