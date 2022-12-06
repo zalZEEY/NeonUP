@@ -20,11 +20,11 @@ Uptimer is a open-source, free discord bot that allows you to make your projects
  
 ## Discord Server
 
-- [Cursor Gaming](https://discord.gg/mnQvdsZx5F)
+- [LeoDev](https://discord.gg/q6JzS3hyHB)
 
 ## Ussage
 
-==Attention! The Uptimer Bot on Cursor Gaming is closed if you still want to use the bot fork the repository==
+==Attention! The Uptimer Bot on LeoDev is closed if you still want to use the bot fork the repository==
 
 > Works for [Glitch](https://glitch.com/)
 
@@ -36,7 +36,7 @@ Uptimer is a open-source, free discord bot that allows you to make your projects
 
 ![Glitch Second](https://github.com/naveenpoddar/uptimer/blob/main/images/glitch-second.png?raw=true)
 
-4. Next Join [Cursor Gaming](https://discord.gg/mnQvdsZx5F) Discord Server and go to the uptimer channel.
+4. Next Join [LeoDev](https://discord.gg/q6JzS3hyHB) Discord Server and go to the uptimer channel.
 
 ![Uptimer Channel](https://github.com/naveenpoddar/uptimer/blob/main/images/uptimer.png?raw=true)
 
@@ -70,7 +70,7 @@ app.listen(port, () => {
 
 ![Repl Second](https://github.com/naveenpoddar/uptimer/blob/main/images/repl-second.png?raw=true)
 
-4. Next Join [Cursor Gaming](https://discord.gg/mnQvdsZx5F) Discord Server and go to the uptimer channel.
+4. Next Join [LeoDev](https://discord.gg/q6JzS3hyHB) Discord Server and go to the uptimer channel.
 
 ![Uptimer Channel](https://github.com/naveenpoddar/uptimer/blob/main/images/uptimer.png?raw=true)
 
