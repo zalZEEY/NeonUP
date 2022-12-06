@@ -78,7 +78,7 @@ app.listen(port, () => {
 
 ## Queries?
 
-If you have any questions regarding this project, or you are not able to use this bot, feel free to ask in our discord server [Cursor Gaming](https://discord.gg/mnQvdsZx5F)
+If you have any questions regarding this project, or you are not able to use this bot, feel free to ask in our discord server [LeoDev](https://discord.gg/q6JzS3hyHB)
 
 ## .env File
 
